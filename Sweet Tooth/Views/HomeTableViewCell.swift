@@ -6,18 +6,35 @@
 //
 
 import UIKit
+import Kingfisher
 
 class HomeTableViewCell: UITableViewCell {
-
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    
+    //MARK: - lifecycle
+    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
+        super.init(style: style, reuseIdentifier: reuseIdentifier)
+        
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
     }
-
+    
+    //MARK: - helpers
+    public func configure(with viewModel: HomeTableViewCellViewModel){
+        var config = viewModel.configuration
+        
+        guard let url = viewModel.imageURL else {return}
+    
+        KingfisherManager.shared.retrieveImage(with: url) { result in
+            
+            switch result {
+            case .success(let image):
+                config.image = image.image
+                self.contentConfiguration = config
+            case .failure(let error):
+                print(error.localizedDescription)
+            }
+        }
+    }
 }

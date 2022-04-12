@@ -8,7 +8,7 @@
 import Foundation
 
 // MARK: - Desserts
-struct Desserts: Codable {
+struct Meals: Codable {
     let meals: [Meal]
 }
 

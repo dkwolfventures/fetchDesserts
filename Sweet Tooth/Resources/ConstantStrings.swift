@@ -6,3 +6,14 @@
 //
 
 import Foundation
+
+public enum ConstantsStrs {
+    case appTitle
+    
+    var string: String {
+        switch self {
+        case .appTitle:
+            return "Fetch Desserts"
+        }
+    }
+}

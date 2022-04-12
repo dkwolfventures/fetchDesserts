@@ -9,21 +9,57 @@
 /* Begin PBXBuildFile section */
 		1706556327FDB10400760F3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1706556227FDB10400760F3D /* AppDelegate.swift */; };
 		1706556527FDB10400760F3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1706556427FDB10400760F3D /* SceneDelegate.swift */; };
-		1706556727FDB10400760F3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1706556627FDB10400760F3D /* ViewController.swift */; };
+		1706556727FDB10400760F3D /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1706556627FDB10400760F3D /* HomeTableViewController.swift */; };
 		1706556A27FDB10400760F3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1706556827FDB10400760F3D /* Main.storyboard */; };
 		1706556C27FDB10500760F3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1706556B27FDB10500760F3D /* Assets.xcassets */; };
 		1706556F27FDB10500760F3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1706556D27FDB10500760F3D /* LaunchScreen.storyboard */; };
+		1706557D27FDBCA700760F3D /* Desserts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1706557C27FDBCA700760F3D /* Desserts.swift */; };
+		1706557F27FDBF0E00760F3D /* DessertDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1706557E27FDBF0E00760F3D /* DessertDetail.swift */; };
+		1706558227FDC03600760F3D /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1706558127FDC03600760F3D /* APIManager.swift */; };
+		17724B992804E89F00E7E5E0 /* DetailViewControllerNameAndImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17724B982804E89F00E7E5E0 /* DetailViewControllerNameAndImageTableViewCell.swift */; };
+		17724B9B2804EA5F00E7E5E0 /* DetailViewControllerNameAndImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17724B9A2804EA5F00E7E5E0 /* DetailViewControllerNameAndImageViewModel.swift */; };
+		17724B9D2804EC4C00E7E5E0 /* DetailViewControllerMeasurementTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17724B9C2804EC4C00E7E5E0 /* DetailViewControllerMeasurementTableViewCell.swift */; };
+		17724B9F2804ED9900E7E5E0 /* DetailViewControllerMeasurementsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17724B9E2804ED9900E7E5E0 /* DetailViewControllerMeasurementsViewModel.swift */; };
+		17724BA12804EF0600E7E5E0 /* DetailViewControllerInstructionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17724BA02804EF0600E7E5E0 /* DetailViewControllerInstructionsTableViewCell.swift */; };
+		17724BA32804EF5C00E7E5E0 /* DetailViewControllerInstructionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17724BA22804EF5C00E7E5E0 /* DetailViewControllerInstructionsViewModel.swift */; };
+		177E95FB27FF0AB000D44AD5 /* ErrorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177E95FA27FF0AB000D44AD5 /* ErrorManager.swift */; };
+		177E95FD27FF0F2F00D44AD5 /* ConstantStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177E95FC27FF0F2F00D44AD5 /* ConstantStrings.swift */; };
+		177E960127FF10DC00D44AD5 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177E960027FF10DC00D44AD5 /* HomeTableViewCell.swift */; };
+		177E960327FF19D100D44AD5 /* HomeTableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177E960227FF19D100D44AD5 /* HomeTableViewCellViewModel.swift */; };
+		179CCA222801FD2D00ABBD28 /* CellExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179CCA212801FD2D00ABBD28 /* CellExtensions.swift */; };
+		179CCA5828038AA300ABBD28 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179CCA5728038AA300ABBD28 /* Extensions.swift */; };
+		179CCA5D2803928900ABBD28 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179CCA5C2803928900ABBD28 /* DetailViewController.swift */; };
+		431916B45837FFA1002FE7A4 /* libPods-Sweet Tooth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 470C4A03048EB336A84067A8 /* libPods-Sweet Tooth.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1706555F27FDB10400760F3D /* Sweet Tooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sweet Tooth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1706556227FDB10400760F3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1706556427FDB10400760F3D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1706556627FDB10400760F3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1706556627FDB10400760F3D /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		1706556927FDB10400760F3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1706556B27FDB10500760F3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1706556E27FDB10500760F3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1706557027FDB10500760F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1706557C27FDBCA700760F3D /* Desserts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desserts.swift; sourceTree = "<group>"; };
+		1706557E27FDBF0E00760F3D /* DessertDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertDetail.swift; sourceTree = "<group>"; };
+		1706558127FDC03600760F3D /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		17724B982804E89F00E7E5E0 /* DetailViewControllerNameAndImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewControllerNameAndImageTableViewCell.swift; sourceTree = "<group>"; };
+		17724B9A2804EA5F00E7E5E0 /* DetailViewControllerNameAndImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewControllerNameAndImageViewModel.swift; sourceTree = "<group>"; };
+		17724B9C2804EC4C00E7E5E0 /* DetailViewControllerMeasurementTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewControllerMeasurementTableViewCell.swift; sourceTree = "<group>"; };
+		17724B9E2804ED9900E7E5E0 /* DetailViewControllerMeasurementsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewControllerMeasurementsViewModel.swift; sourceTree = "<group>"; };
+		17724BA02804EF0600E7E5E0 /* DetailViewControllerInstructionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewControllerInstructionsTableViewCell.swift; sourceTree = "<group>"; };
+		17724BA22804EF5C00E7E5E0 /* DetailViewControllerInstructionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewControllerInstructionsViewModel.swift; sourceTree = "<group>"; };
+		177E95FA27FF0AB000D44AD5 /* ErrorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorManager.swift; sourceTree = "<group>"; };
+		177E95FC27FF0F2F00D44AD5 /* ConstantStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantStrings.swift; sourceTree = "<group>"; };
+		177E960027FF10DC00D44AD5 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		177E960227FF19D100D44AD5 /* HomeTableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCellViewModel.swift; sourceTree = "<group>"; };
+		179CCA212801FD2D00ABBD28 /* CellExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellExtensions.swift; sourceTree = "<group>"; };
+		179CCA5728038AA300ABBD28 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		179CCA5C2803928900ABBD28 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		470C4A03048EB336A84067A8 /* libPods-Sweet Tooth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sweet Tooth.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7C156EE4467F97D9608D4F2 /* Pods-Sweet Tooth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sweet Tooth.release.xcconfig"; path = "Target Support Files/Pods-Sweet Tooth/Pods-Sweet Tooth.release.xcconfig"; sourceTree = "<group>"; };
+		D1B6AE0BFB9714E0CEB4A897 /* Pods-Sweet Tooth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sweet Tooth.debug.xcconfig"; path = "Target Support Files/Pods-Sweet Tooth/Pods-Sweet Tooth.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				431916B45837FFA1002FE7A4 /* libPods-Sweet Tooth.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +79,8 @@
 			children = (
 				1706556127FDB10400760F3D /* Sweet Tooth */,
 				1706556027FDB10400760F3D /* Products */,
+				BE52918A4F2A4B6C2CE8E903 /* Pods */,
+				B48E589A4FF4694C70A8A504 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +95,104 @@
 		1706556127FDB10400760F3D /* Sweet Tooth */ = {
 			isa = PBXGroup;
 			children = (
-				1706556227FDB10400760F3D /* AppDelegate.swift */,
-				1706556427FDB10400760F3D /* SceneDelegate.swift */,
-				1706556627FDB10400760F3D /* ViewController.swift */,
+				1706557B27FDB9FD00760F3D /* Models */,
+				1706557A27FDB9F500760F3D /* Views */,
+				1706557927FDB9EE00760F3D /* ViewModels */,
+				1706557827FDB9E500760F3D /* Controllers */,
+				1706557727FDB9DE00760F3D /* Managers */,
+				1706557627FDB13800760F3D /* Resources */,
 				1706556827FDB10400760F3D /* Main.storyboard */,
 				1706556B27FDB10500760F3D /* Assets.xcassets */,
 				1706556D27FDB10500760F3D /* LaunchScreen.storyboard */,
 				1706557027FDB10500760F3D /* Info.plist */,
 			);
 			path = "Sweet Tooth";
+			sourceTree = "<group>";
+		};
+		1706557627FDB13800760F3D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1706556227FDB10400760F3D /* AppDelegate.swift */,
+				1706556427FDB10400760F3D /* SceneDelegate.swift */,
+				177E95FC27FF0F2F00D44AD5 /* ConstantStrings.swift */,
+				179CCA212801FD2D00ABBD28 /* CellExtensions.swift */,
+				179CCA5728038AA300ABBD28 /* Extensions.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1706557727FDB9DE00760F3D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				1706558127FDC03600760F3D /* APIManager.swift */,
+				177E95FA27FF0AB000D44AD5 /* ErrorManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		1706557827FDB9E500760F3D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1706556627FDB10400760F3D /* HomeTableViewController.swift */,
+				179CCA5C2803928900ABBD28 /* DetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1706557927FDB9EE00760F3D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				177E960227FF19D100D44AD5 /* HomeTableViewCellViewModel.swift */,
+				17724B9A2804EA5F00E7E5E0 /* DetailViewControllerNameAndImageViewModel.swift */,
+				17724B9E2804ED9900E7E5E0 /* DetailViewControllerMeasurementsViewModel.swift */,
+				17724BA22804EF5C00E7E5E0 /* DetailViewControllerInstructionsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1706557A27FDB9F500760F3D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				177E960027FF10DC00D44AD5 /* HomeTableViewCell.swift */,
+				17724B952804E57600E7E5E0 /* DetailCollectionView Views */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1706557B27FDB9FD00760F3D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1706557C27FDBCA700760F3D /* Desserts.swift */,
+				1706557E27FDBF0E00760F3D /* DessertDetail.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		17724B952804E57600E7E5E0 /* DetailCollectionView Views */ = {
+			isa = PBXGroup;
+			children = (
+				17724B982804E89F00E7E5E0 /* DetailViewControllerNameAndImageTableViewCell.swift */,
+				17724B9C2804EC4C00E7E5E0 /* DetailViewControllerMeasurementTableViewCell.swift */,
+				17724BA02804EF0600E7E5E0 /* DetailViewControllerInstructionsTableViewCell.swift */,
+			);
+			path = "DetailCollectionView Views";
+			sourceTree = "<group>";
+		};
+		B48E589A4FF4694C70A8A504 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				470C4A03048EB336A84067A8 /* libPods-Sweet Tooth.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE52918A4F2A4B6C2CE8E903 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1B6AE0BFB9714E0CEB4A897 /* Pods-Sweet Tooth.debug.xcconfig */,
+				B7C156EE4467F97D9608D4F2 /* Pods-Sweet Tooth.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1706557327FDB10500760F3D /* Build configuration list for PBXNativeTarget "Sweet Tooth" */;
 			buildPhases = (
+				E648C141EA3A0A2B43EDB2CE /* [CP] Check Pods Manifest.lock */,
 				1706555B27FDB10400760F3D /* Sources */,
 				1706555C27FDB10400760F3D /* Frameworks */,
 				1706555D27FDB10400760F3D /* Resources */,
@@ -133,14 +262,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E648C141EA3A0A2B43EDB2CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sweet Tooth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1706555B27FDB10400760F3D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1706556727FDB10400760F3D /* ViewController.swift in Sources */,
+				17724BA12804EF0600E7E5E0 /* DetailViewControllerInstructionsTableViewCell.swift in Sources */,
+				17724B9B2804EA5F00E7E5E0 /* DetailViewControllerNameAndImageViewModel.swift in Sources */,
+				1706558227FDC03600760F3D /* APIManager.swift in Sources */,
+				1706556727FDB10400760F3D /* HomeTableViewController.swift in Sources */,
+				177E95FB27FF0AB000D44AD5 /* ErrorManager.swift in Sources */,
+				179CCA222801FD2D00ABBD28 /* CellExtensions.swift in Sources */,
 				1706556327FDB10400760F3D /* AppDelegate.swift in Sources */,
+				17724BA32804EF5C00E7E5E0 /* DetailViewControllerInstructionsViewModel.swift in Sources */,
+				177E95FD27FF0F2F00D44AD5 /* ConstantStrings.swift in Sources */,
+				1706557F27FDBF0E00760F3D /* DessertDetail.swift in Sources */,
+				17724B9D2804EC4C00E7E5E0 /* DetailViewControllerMeasurementTableViewCell.swift in Sources */,
+				17724B9F2804ED9900E7E5E0 /* DetailViewControllerMeasurementsViewModel.swift in Sources */,
+				179CCA5828038AA300ABBD28 /* Extensions.swift in Sources */,
+				177E960327FF19D100D44AD5 /* HomeTableViewCellViewModel.swift in Sources */,
+				177E960127FF10DC00D44AD5 /* HomeTableViewCell.swift in Sources */,
+				1706557D27FDBCA700760F3D /* Desserts.swift in Sources */,
 				1706556527FDB10400760F3D /* SceneDelegate.swift in Sources */,
+				179CCA5D2803928900ABBD28 /* DetailViewController.swift in Sources */,
+				17724B992804E89F00E7E5E0 /* DetailViewControllerNameAndImageTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +454,7 @@
 		};
 		1706557427FDB10500760F3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1B6AE0BFB9714E0CEB4A897 /* Pods-Sweet Tooth.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,9 +463,11 @@
 				DEVELOPMENT_TEAM = 8SZJ9T656N;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Sweet Tooth/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Fetch Desserts";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,6 +485,7 @@
 		};
 		1706557527FDB10500760F3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7C156EE4467F97D9608D4F2 /* Pods-Sweet Tooth.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,9 +494,11 @@
 				DEVELOPMENT_TEAM = 8SZJ9T656N;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Sweet Tooth/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Fetch Desserts";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

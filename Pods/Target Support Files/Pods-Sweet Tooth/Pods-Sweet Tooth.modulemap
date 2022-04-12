@@ -1,0 +1,6 @@
+module Pods_Sweet_Tooth {
+  umbrella header "Pods-Sweet Tooth-umbrella.h"
+
+  export *
+  module * { export * }
+}
