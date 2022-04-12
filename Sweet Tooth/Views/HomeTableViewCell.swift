@@ -20,6 +20,11 @@ class HomeTableViewCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        self.contentConfiguration = nil
+    }
+    
     //MARK: - helpers
     public func configure(with viewModel: HomeTableViewCellViewModel){
         var config = viewModel.configuration
