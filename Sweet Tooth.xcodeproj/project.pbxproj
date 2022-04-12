@@ -10,7 +10,6 @@
 		1706556327FDB10400760F3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1706556227FDB10400760F3D /* AppDelegate.swift */; };
 		1706556527FDB10400760F3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1706556427FDB10400760F3D /* SceneDelegate.swift */; };
 		1706556727FDB10400760F3D /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1706556627FDB10400760F3D /* HomeTableViewController.swift */; };
-		1706556A27FDB10400760F3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1706556827FDB10400760F3D /* Main.storyboard */; };
 		1706556C27FDB10500760F3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1706556B27FDB10500760F3D /* Assets.xcassets */; };
 		1706556F27FDB10500760F3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1706556D27FDB10500760F3D /* LaunchScreen.storyboard */; };
 		1706557D27FDBCA700760F3D /* Desserts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1706557C27FDBCA700760F3D /* Desserts.swift */; };
@@ -37,7 +36,6 @@
 		1706556227FDB10400760F3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1706556427FDB10400760F3D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1706556627FDB10400760F3D /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
-		1706556927FDB10400760F3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1706556B27FDB10500760F3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1706556E27FDB10500760F3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1706557027FDB10500760F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -101,7 +99,6 @@
 				1706557827FDB9E500760F3D /* Controllers */,
 				1706557727FDB9DE00760F3D /* Managers */,
 				1706557627FDB13800760F3D /* Resources */,
-				1706556827FDB10400760F3D /* Main.storyboard */,
 				1706556B27FDB10500760F3D /* Assets.xcassets */,
 				1706556D27FDB10500760F3D /* LaunchScreen.storyboard */,
 				1706557027FDB10500760F3D /* Info.plist */,
@@ -256,7 +253,6 @@
 			files = (
 				1706556F27FDB10500760F3D /* LaunchScreen.storyboard in Resources */,
 				1706556C27FDB10500760F3D /* Assets.xcassets in Resources */,
-				1706556A27FDB10400760F3D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,14 +313,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1706556827FDB10400760F3D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1706556927FDB10400760F3D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1706556D27FDB10500760F3D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -466,7 +454,6 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "Fetch Desserts";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -497,7 +484,6 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "Fetch Desserts";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
